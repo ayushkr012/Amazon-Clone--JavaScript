@@ -119,8 +119,7 @@ today_deal_right_btn.addEventListener("click", () => {
   });
 });
 
-/* Up to 60% off | Kitchen appliances for your home */
-
+// New collections form local Shops
 const leftbtn = document.querySelector(".l-btn");
 const rightbtn = document.querySelector(".r-btn");
 
@@ -132,6 +131,85 @@ rightbtn.addEventListener("click", function (event) {
 
 leftbtn.addEventListener("click", function (event) {
   const content = document.querySelector(".product-slide");
+  content.scrollLeft -= 1200;
+  event.preventDefault();
+});
+
+/* Up to 60% off | Kitchen appliances for your home */
+const leftbtn1 = document.querySelector(".l-btn-1");
+const rightbtn1 = document.querySelector(".r-btn-1");
+
+rightbtn1.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-1");
+  content.scrollLeft += 1200;
+  event.preventDefault();
+});
+
+leftbtn1.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-1");
+  content.scrollLeft -= 1200;
+  event.preventDefault();
+});
+
+// Up to 50% off | Give your home the look it deserves
+const leftbtn2 = document.querySelector(".l-btn-2");
+const rightbtn2 = document.querySelector(".r-btn-2");
+
+rightbtn2.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-2");
+  content.scrollLeft += 1200;
+  event.preventDefault();
+});
+
+leftbtn2.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-2");
+  content.scrollLeft -= 1200;
+  event.preventDefault();
+});
+
+// Up to 45% off | Furnitures from stores nearby
+const leftbtn3 = document.querySelector(".l-btn-3");
+const rightbtn3 = document.querySelector(".r-btn-3");
+
+rightbtn3.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-3");
+  content.scrollLeft += 1200;
+  event.preventDefault();
+});
+
+leftbtn3.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-3");
+  content.scrollLeft -= 1200;
+  event.preventDefault();
+});
+
+// Related to item you've viewed
+const leftbtn4 = document.querySelector(".l-btn-4");
+const rightbtn4 = document.querySelector(".r-btn-4");
+
+rightbtn4.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-4");
+  content.scrollLeft += 1200;
+  event.preventDefault();
+});
+
+leftbtn4.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-4");
+  content.scrollLeft -= 1200;
+  event.preventDefault();
+});
+// Up to 50% off | Summer fashion for women
+const leftbtn5 = document.querySelector(".l-btn-5");
+const rightbtn5 = document.querySelector(".r-btn-5");
+
+rightbtn5.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-5");
+  content.scrollLeft += 1200;
+  event.preventDefault();
+});
+
+leftbtn5.addEventListener("click", function (event) {
+  const content = document.querySelector(".product-slide-5");
   content.scrollLeft -= 1200;
   event.preventDefault();
 });
